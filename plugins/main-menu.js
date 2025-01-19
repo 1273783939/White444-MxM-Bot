@@ -243,7 +243,7 @@ let userNationality = userNationalityData ? `${userNationalityData.name} ${userN
     'https://i.ibb.co/xF3DbFv/file.jpg',
     'https://i.ibb.co/T0qNJ1f/file.jpg',
     'https://i.ibb.co/gdxsw9Y/file.jpg',
-    'https://i.ibb.co/wpJJcG0/file.jpg'
+    'https://i.ibb.co/GnjBXHd/file.jpg'
   ].getRandom()
 
     await m.react('🩸')
