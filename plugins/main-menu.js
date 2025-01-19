@@ -246,7 +246,7 @@ let userNationality = userNationalityData ? `${userNationalityData.name} ${userN
     'https://i.ibb.co/wpJJcG0/file.jpg'
   ].getRandom()
 
-    await m.react('🤍')
+    await m.react('🩸')
     await conn.sendMessage(m.chat, {
       image: { url: img },
       caption: estilo(text),
