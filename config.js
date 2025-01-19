@@ -72,9 +72,9 @@ global.catalogo = fs.readFileSync('./src/catalogo.png')
 global.group = 'https://whatsapp.com/channel/0029Vb03dv95a23v1gG0gT24'
 global.group2 = 'https://whatsapp.com/channel/0029Vb03dv95a23v1gG0gT24'
 global.canal = 'https://whatsapp.com/channel/0029Vb03dv95a23v1gG0gT24'
-global.github = 'https://github.com/Angelito-OFC/Genesis-AI' 
-global.instagram = 'https://www.instagram.com/angelito.kzx' 
-global.whatsApp = 'https://wa.me/59168683798'
+global.github = 'https://github.com/Prakharper/Demon-2.2.git' 
+global.instagram = 'https://www.instagram.com/harperprak' 
+global.whatsApp = 'https://wa.me/584241836217'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
