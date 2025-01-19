@@ -16,8 +16,8 @@ global.confirmCode = ''
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
 global.owner = [
-   ['584241836217', 'Creador 👑', true],
-   ['529983694618', 'Owner 🍭', true],
+   ['529983694618', 'Creador 👑', true],
+   ['584241836217', 'Owner 🍭', true],
    ['', 'Owner ☁️', true],
    ['', 'Owner 🍭', true],
    [''],
