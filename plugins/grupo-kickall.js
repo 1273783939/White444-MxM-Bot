@@ -1,7 +1,7 @@
 /* 
-- Kickall By Angel-OFC  
+- Kickall By Prakharper-OFC  
 - elimina todos de un grupo con un comando 
-- https://whatsapp.com/channel/0029VaJxgcB0bIdvuOwKTM2Y
+- https://whatsapp.com/channel/0029Vb03dv95a23v1gG0gT24
 */
 import axios from 'axios';
 
@@ -23,7 +23,7 @@ let handler = async (m, { conn, text, participants }) => {
         await new Promise(resolve => setTimeout(resolve, 3000));
     }
 
-    m.reply('*🤍 Eliminación Exitosa.*');
+    m.reply('*🩸 Eliminación Exitosa.*');
 }
 
 handler.help = ['kickall']
