@@ -240,7 +240,7 @@ let userNationality = userNationalityData ? `${userNationalityData.name} ${userN
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
 
   let img = [ 
-    'https://files.catbox.moe/as20sb.jpeg',
+    'https://i.ibb.co/xF3DbFv/file.jpg',
     'https://i.ibb.co/T0qNJ1f/file.jpg',
     'https://i.ibb.co/gdxsw9Y/file.jpg',
     'https://i.ibb.co/wpJJcG0/file.jpg'
