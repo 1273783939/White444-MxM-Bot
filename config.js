@@ -10,7 +10,7 @@ import moment from 'moment-timezone'
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
 //BETA: Si quiere evitar escribir el número que será bot en la consola, agregué desde aquí entonces:
-global.botNumberCode = '' //Ejemplo: +573218138672
+global.botNumberCode = '' //Ejemplo: +584241836217
 global.confirmCode = ''
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
@@ -69,9 +69,9 @@ global.catalogo = fs.readFileSync('./src/catalogo.png')
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.group = 'https://chat.whatsapp.com/GqKwwoV2JJaJDP2SL7SddX'
-global.group2 = 'https://chat.whatsapp.com/Fn5Ipyxu6mE6qEQlwWZTwU'
-global.canal = 'https://whatsapp.com/channel/0029VaJxgcB0bIdvuOwKTM2Y'
+global.group = 'https://whatsapp.com/channel/0029Vb03dv95a23v1gG0gT24'
+global.group2 = 'https://whatsapp.com/channel/0029Vb03dv95a23v1gG0gT24'
+global.canal = 'https://whatsapp.com/channel/0029Vb03dv95a23v1gG0gT24'
 global.github = 'https://github.com/Angelito-OFC/Genesis-AI' 
 global.instagram = 'https://www.instagram.com/angelito.kzx' 
 global.whatsApp = 'https://wa.me/59168683798'
