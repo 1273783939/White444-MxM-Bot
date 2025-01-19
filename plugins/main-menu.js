@@ -47,9 +47,9 @@ const emojis = {
 };
 
 const defaultMenu = {
-  before: `*Hola \`%name\` soy Genesis*
+  before: `*Hola \`%name\` soy Demon*
 
-> 👤 *Creador:* Izumi-kzx
+> 👤 *Creador:* prak-harper
 > 🍥 *Pais:* %userNationality
 > 🍧 *Activo:* %muptime
 > 🍘 *Usuarios:* %rtotalreg de %totalreg
