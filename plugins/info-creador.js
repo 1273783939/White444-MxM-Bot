@@ -11,7 +11,7 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
     // VCARD
     let list = [{
         displayName: "Prak.harper 🚀",
-        vcard: `BEGIN:VCARD\nVERSION:3.0\nFN: prak-harper\nitem1.TEL;waid=584241836217:584241836217\nitem1.X-ABLabel:Número\nitem2.EMAIL;type=INTERNET: izumipluss@gmail.com\nitem2.X-ABLabel:Email\nitem3.URL:https://genesis-support.vercel.app/\nitem3.X-ABLabel:Internet\nitem4.ADR:;; Venezuela;;;;\nitem4.X-ABLabel:Region\nEND:VCARD`,
+        vcard: `BEGIN:VCARD\nVERSION:3.0\nFN: prak-harper\nitem1.TEL;waid=584241836217:584241836217\nitem1.X-ABLabel:Número\nitem2.EMAIL;type=INTERNET: prakharper7@gmail.com\nitem2.X-ABLabel:Email\nitem3.URL:https://genesis-support.vercel.app/\nitem3.X-ABLabel:Internet\nitem4.ADR:;; Venezuela;;;;\nitem4.X-ABLabel:Region\nEND:VCARD`,
     }];
 
     await conn.sendMessage(m.chat, {
