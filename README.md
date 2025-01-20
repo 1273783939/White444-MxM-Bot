@@ -52,7 +52,7 @@ DemonBot-2.2 recibe **soporte semanal** si llegas a ver un error **repetitivamen
 - **Panel:** [`Aquí`](https://panel.tk-joanhost.com)
 - **Canal de WhatsApp:** [`Aquí`](https://whatsapp.com/channel/0029VaoZXbk6RGJNYQVP8r27)
 - **Texto:** `Demon Ultra (Bot-Oficial)`
-- [x] **Configuración** <details><summary>**Ajustes del Servidor - Genesis-Ultra**</summary><img src="https://i.ibb.co/w6MC5Q4/file.jpg"></details>
+- [x] **Configuración** <details><summary>**Ajustes del Servidor - Demon-Ultra**</summary><img src="https://i.ibb.co/w6MC5Q4/file.jpg"></details>
 
 ### **`🎇 Hosting Py:`**
 <a href="https://dahs.hostingpy.shop/"><img src="https://files.catbox.moe/lr92z2.jpg" height="130px"></a>
@@ -70,11 +70,11 @@ DemonBot-2.2 recibe **soporte semanal** si llegas a ver un error **repetitivamen
 > **Si planeas instalar o extraer el bot, recuerda que su venta está estrictamente prohibida bajo cualquier circunstancia. El uso del bot con fines de venta constituye una violación de los términos de nuestro repositorio y se tomarán las medidas necesarias contra quienes incumplan estas condiciones.**
 
 ***
-### ☁️ COLABORADORES
+### 🩸 COLABORADORES
 
-<a href="https://github.com/MauroAzcurra"><img src="https://github.com/MauroAzcurra.png" width="100" height="100" alt="MauroAzcurra"/></a>
+<a href="https://github.com/Parafilies"><img src="https://github.com/parafilies.png" width="100" height="100" alt="AAMŌN"/></a>
 
-### **`🤍 CREADOR`**
+### **`🚀 CREADOR`**
 <a
 href="https://github.com/Prakharper/Demon-2.2.git"><img src="https://github.com/Prakharper.png" width="130" height="130" alt="Prakharper"/></a>
 
