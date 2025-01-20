@@ -15,7 +15,7 @@ const handler = async (m, { isOwner, isAdmin, conn, text, participants, args, co
   }
 
   const pesan = args.join` `;
-  const oi = `*»  =͟͟͞͞  *𝙻𝙸𝚂𝚃𝙰 𝙳𝙴 𝙴𝚂𝙲𝙻𝙰𝚅𝙾𝚂.*   
+  const oi = `*»  =͟͟͞͞  *𝙻𝙸𝚂𝚃𝙰 𝙳𝙴 𝙴𝚂𝙲𝙻𝙰𝚅𝙾𝚂*   
  :* ${pesan}`;
   let teks = `*!     ꯭꯭𝗗𝗘𝗦𝗣𝗜𝗘𝗥𝗧𝗘𝗡  !*\n  *❲ 𝝦 𝗘 Ⲥ 𝖠 𝖣 𝝤 𝙍 𝗘 𝗦 貝 ❳* ₊ ${participants.length}  *🩸\n\n ${oi}\n\n╭───㌃ 𝕯𝐄𝐌Ọ𝐍 𝐁Ọ𝐓- 𖩣ꪾ  ──愛 \n`;
   for (const mem of participants) {
