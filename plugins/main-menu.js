@@ -240,10 +240,10 @@ let userNationality = userNationalityData ? `${userNationalityData.name} ${userN
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
 
   let img = [ 
-    'https://i.ibb.co/xF3DbFv/file.jpg',
-    'https://i.ibb.co/T0qNJ1f/file.jpg',
-    'https://i.ibb.co/YDnyMth/file.jpg',
-    'https://i.ibb.co/GnjBXHd/file.jpg'
+    'https://i.ibb.co/8MqHdjj/file.jpg',
+    'https://i.ibb.co/8MqHdjj/file.jpg',
+    'https://i.ibb.co/8MqHdjj/file.jpg',
+    'https://i.ibb.co/8MqHdjj/file.jpg'
   ].getRandom()
 
     await m.react('🩸')
