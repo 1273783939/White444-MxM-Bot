@@ -28,17 +28,17 @@ console.log(`Error : ${e}`)
 }}
 
 //creador y otros
-global.creador = 'Wa.me/5493876432076'
+global.creador = 'Wa.me/584241836217'
 global.ofcbot = `${conn.user.jid.split('@')[0]}`
 global.asistencia = 'https://wa.me/message/O4QPPHZOFDOJI1'
-global.namechannel = '✿ Genesis • Channel OFC ✿'
-global.listo = '✨️ *Aquí tienes ฅ^•ﻌ•^ฅ*'
+global.namechannel = '☠︎︎ Demon • Channel OFC ☠︎︎'
+global.listo = '🩸 *Aquí tienes ฅ^•ﻌ•^ฅ*'
 global.fotoperfil = await conn.profilePictureUrl(m.sender, 'image').catch(_ => 'https://qu.ax/QGAVS.jpg')
 
 //ids channel
 global.channelid = '120363220939514640@newsletter'
 global.canalIdYL = ["120363220939514640@newsletter", "120363233459118973@newsletter", "120363343366246815@newsletter"]
-global.canalNombreYL = ["✿ ɢᴇɴᴇꜱɪꜱ • ᴄʜᴀɴɴᴇʟ ᴏꜰᴄ ✿", "ᴄᴀɴᴀʟ • ᴊᴏᴀɴ ᴛᴋ ᴏꜰɪᴄɪᴀʟ ✍️", "ᴄᴀɴᴀʟ • ɪᴢᴜᴍɪ-ᴋᴢx ᴏꜰɪᴄɪᴀʟ ☁️"]
+global.canalNombreYL = ["☠︎︎ Dᴇᴍᴏɴ-ʙᴏᴛ • ᴄʜᴀɴɴᴇʟ ᴏꜰᴄ ☠︎︎", "ᴄᴀɴᴀʟ • Pʀᴀᴋ ʜᴀʀᴘᴇʀ ᴏꜰɪᴄɪᴀʟ ✍️", "ᴄᴀɴᴀʟ • ᴘʀᴀᴋ-ʜᴀʀᴘᴇʀ ᴏꜰɪᴄɪᴀʟ ☠︎︎"]
 global.channelRD = await getRandomChannel()
 
 //fechas
@@ -64,13 +64,13 @@ global.wait = '🚀 Cargando...'
 global.emojis = [emoji, emoji2, emoji3, emoji4, emoji5].getRandom()
 
 //Enlaces
-var canal = 'https://whatsapp.com/channel/0029VaJxgcB0bIdvuOwKTM2Y'
-var canal2 = 'https://whatsapp.com/channel/0029VaGGynJLY6d43krQYR2g'
-var canal3 = 'https://whatsapp.com/channel/0029VawMIXi2P59oaQ2H1j0O'
-var canal4 = 'https://whatsapp.com/channel/0029VaS4zeE72WTyg5et571r'
-var canal5 = 'https://whatsapp.com/channel/0029VavYQDTBlHpcishJCZ0k'
+var canal = 'https://whatsapp.com/channel/0029Vb03dv95a23v1gG0gT24'
+var canal2 = 'https://whatsapp.com/channel/0029Vb03dv95a23v1gG0gT24'
+var canal3 = 'https://whatsapp.com/channel/0029Vb03dv95a23v1gG0gT24'
+var canal4 = 'https://whatsapp.com/channel/0029Vb03dv95a23v1gG0gT24'
+var canal5 = 'https://whatsapp.com/channel/0029Vb03dv95a23v1gG0gT24'
 var github = 'https://github.com/Angelito-OFC/Genesis-AI'  
-var insta = 'https://www.instagram.com/angelito.kzx'
+var insta = 'https://www.instagram.com/harperprak'
 
 global.redes = [canal, canal2, canal3, canal4, github, insta].getRandom()
 
