@@ -23,7 +23,7 @@ let estilo = (text, style = 1) => {
     const find = replacer.find(x => x.original == v);
     find ? output.push(find.convert) : output.push(v);
   });
-  return output.join('');
+  return output.join('🩸');
 };
 
 const emojis = {
@@ -69,8 +69,8 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command }) => {
 
   let tags = {
     "main": "☁️「 *`ＰＲＩＮＣＩＰＡＬ`* 」☁️",
-    "info": "✨「 *`ＩＮＦＯ`* 」✨",
-    "search": "🎋「 *`ＳＥＡＲＣＨ`* 」🎋",
+    "info": "🩸「 *`ＩＮＦＯ`* 」🩸",
+    "search": "🗡️「 *`ＳＥＡＲＣＨ`* 」🗡️",
     "rpg": "🌵「 *`ＲＰＧ`* 」🌵",
     "nable": "🌀「 *`ＯＮ－ＯＦＦ`* 」🌀",
     "start": "🌱「 *`ＳＴＡＲＴ`* 」🌱",
