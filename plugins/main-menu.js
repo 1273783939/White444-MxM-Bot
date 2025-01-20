@@ -47,7 +47,7 @@ const emojis = {
 };
 
 const defaultMenu = {
-  before: `*Hola \`%name\` soy Demon*
+  before: `*Hola \`%name\` soy Demon-bot*
 
 > 💻 *Creador:* prak-harper
 > 🔅 *Pais:* %userNationality
