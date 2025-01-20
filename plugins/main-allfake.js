@@ -69,7 +69,7 @@ var canal2 = 'https://whatsapp.com/channel/0029Vb03dv95a23v1gG0gT24'
 var canal3 = 'https://whatsapp.com/channel/0029Vb03dv95a23v1gG0gT24'
 var canal4 = 'https://whatsapp.com/channel/0029Vb03dv95a23v1gG0gT24'
 var canal5 = 'https://whatsapp.com/channel/0029Vb03dv95a23v1gG0gT24'
-var github = 'https://github.com/Angelito-OFC/Genesis-AI'  
+var github = 'https://github.com/Prakharper/Demon-2.2.git'  
 var insta = 'https://www.instagram.com/harperprak'
 
 global.redes = [canal, canal2, canal3, canal4, github, insta].getRandom()
