@@ -25,17 +25,17 @@ let handler = async (m, { conn, usedPrefix, isRowner }) => {
     const used = process.memoryUsage()
 
     let txt = `🩸 \`\`\`Información - Demon-bot\`\`\` 🩸\n\n`
-    txt += `🩸᠁❥ *◜Creador◞* ⇢ Prak.Harper\n`
-    txt += `🩸᠁❥ *◜Prefijo◞* ⇢ [ ${usedPrefix} ]\n`
-    txt += `🩸᠁❥ *◜Versión◞* ⇢ ${vs}\n`
-    txt += `🩸᠁❥ *◜Chats Privados◞* ⇢ ${chats.length - groupsIn.length}\n`
-    txt += `🩸᠁❥ *◜Total De Chats◞* ⇢ ${chats.length}\n`
-    txt += `🩸᠁❥ *◜Usuarios◞* ⇢ ${totalreg}\n`
-    txt += `🩸᠁❥ *◜Chats Privados◞* ⇢ ${chats.length - groupsIn.length}\n`
-    txt += `🩸᠁❥ *◜Grupos◞* ⇢ ${groupsIn.length}\n`
-    txt += `🩸᠁❥ *◜Actividad◞* ⇢ ${muptime}\n`
-    txt += `🩸᠁❥ *◜Velocidad◞* ⇢ ${(speed * 1000).toFixed(0) / 1000}\n`
-    txt += `🩸᠁❥ *◜SubBots Activos◞* ⇢ ${totalUsers || '0'}`
+    txt += `🩸➪☠︎︎ *◜Creador◞* ⇢ 𝐏𝐫𝐚𝐤𝐡𝐚𝐫𝐩𝐞𝐫🚀\n`
+    txt += `🩸➪☠︎︎ *◜Prefijo◞* ⇢ [ ${usedPrefix} ]\n`
+    txt += `🩸➪☠︎︎ *◜Versión◞* ⇢ ${vs}\n`
+    txt += `🩸➪☠︎︎ *◜Chats Privados◞* ⇢ ${chats.length - groupsIn.length}\n`
+    txt += `🩸➪☠︎︎ *◜Total De Chats◞* ⇢ ${chats.length}\n`
+    txt += `🩸➪☠︎︎ *◜Usuarios◞* ⇢ ${totalreg}\n`
+    txt += `🩸➪☠︎︎ *◜Chats Privados◞* ⇢ ${chats.length - groupsIn.length}\n`
+    txt += `🩸➪☠︎︎ *◜Grupos◞* ⇢ ${groupsIn.length}\n`
+    txt += `🩸➪☠︎︎ *◜Actividad◞* ⇢ ${muptime}\n`
+    txt += `🩸➪☠︎︎ *◜Velocidad◞* ⇢ ${(speed * 1000).toFixed(0) / 1000}\n`
+    txt += `🩸➪☠︎︎ *◜SubBots Activos◞* ⇢ ${totalUsers || '0'}`
 
     await conn.sendFile(m.chat, pp, 'image.jpg', txt, fkontak, null, fake)
 }
