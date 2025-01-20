@@ -93,7 +93,7 @@ global.nombre = m.pushName || 'Anónimo'
 global.taguser = '@' + m.sender.split("@s.whatsapp.net")
 var more = String.fromCharCode(8206)
 global.readMore = more.repeat(850)
-global.sticker1 = `☁️Usuario: ${nombre}
+global.sticker1 = `Usuario: ${nombre}
 ☁️ Creador: Izumi-kzx • ☁️ Fecha: ${fecha}`;
 global.sticker2 = `☁️Bot: ${botname}`
 
@@ -104,12 +104,12 @@ global.fake = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo
 }}, { quoted: m }
 
 global.icono = [ 
-'https://i.ibb.co/0nMY9Y0/file.jpg',
-'https://i.ibb.co/GPXBQXc/file.jpg',
-'https://i.ibb.co/xXzbW1g/file.jpg',
-'https://i.ibb.co/s5cxWDM/file.jpg',
-'https://i.ibb.co/SsGHRCr/file.jpg',
-'https://i.ibb.co/37Vnh5M/file.jpg'
+'https://i.ibb.co/8MqHdjj/file.jpg',
+'https://i.ibb.co/8MqHdjj/file.jpg',
+'https://i.ibb.co/8MqHdjj/file.jpg',
+'https://i.ibb.co/r6YPXPx/file.jpg',
+'https://i.ibb.co/r6YPXPx/file.jpg',
+'https://i.ibb.co/r6YPXPx/file.jpg'
 ].getRandom()
 
 global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: channelRD.id, serverMessageId: 100, newsletterName: channelRD.name, }, externalAdReply: { showAdAttribution: true, title: botname, body: dev, mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icono, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, }, }}
