@@ -22,9 +22,9 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
         contextInfo: {
             externalAdReply: {
                 showAdAttribution: true,
-                title: 'һ᥆ᥣᥲ s᥆ᥡ іzᥙmі-kz᥊ ᥱᥣ mᥱȷ᥆r',
+                title: 'һ᥆ᥣᥲ s᥆ᥡ Prak Harper ᥱᥣ mᥱȷ᥆r',
                 body: dev,
-                thumbnailUrl: 'https://i.ibb.co/44XMFDQ/file.jpg',
+                thumbnailUrl: 'https://i.ibb.co/YDnyMth/file.jpg',
                 sourceUrl: canal,
                 mediaType: 1,
                 renderLargerThumbnail: true
