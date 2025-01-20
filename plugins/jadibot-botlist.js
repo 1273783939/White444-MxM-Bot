@@ -15,9 +15,9 @@ async function handler(m, { conn, usedPrefix, command }) {
   let uptime = convertirMs(_uptime)
   // imágenes
   let img = [ 
-    'https://i.ibb.co/VYMKmbM/file.jpg',
-    'https://i.ibb.co/Zf4YQqC/file.jpg',
-    'https://i.ibb.co/10QK4kb/file.jpg'
+    'https://i.ibb.co/xF3DbFv/file.jpg',
+    'https://i.ibb.co/xF3DbFv/file.jpg',
+    'https://i.ibb.co/xF3DbFv/file.jpg'
   ].getRandom()
 
   const users = [...new Set([...global.conns.filter((conn) => conn.user && conn.ws.socket && conn.ws.socket.readyState !== ws.CLOSED).map((conn) => conn)])]
