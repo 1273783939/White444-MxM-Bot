@@ -4,7 +4,7 @@ let handler = async (m, { conn, usedPrefix, isRowner }) => {
     let _muptime
     let totalreg = Object.keys(global.db.data.users).length
     let totalchats = Object.keys(global.db.data.chats).length
-    let pp = 'https://i.ibb.co/CKggFFc/file.jpg'
+    let pp = 'https://i.ibb.co/2Fz6qjB/file.jpg'
     
     if (process.send) {
         process.send('uptime')
@@ -24,18 +24,18 @@ let handler = async (m, { conn, usedPrefix, isRowner }) => {
     let speed = neww - old
     const used = process.memoryUsage()
 
-    let txt = `☁️ \`\`\`Información - Genesis\`\`\` ☁️\n\n`
-    txt += `☁️꙰᠁❥ *◜Creador◞* ⇢ Izumi.kzx\n`
-    txt += `☁️꙰᠁❥ *◜Prefijo◞* ⇢ [ ${usedPrefix} ]\n`
-    txt += `☁️꙰᠁❥ *◜Versión◞* ⇢ ${vs}\n`
-    txt += `☁️꙰᠁❥ *◜Chats Privados◞* ⇢ ${chats.length - groupsIn.length}\n`
-    txt += `☁️꙰᠁❥ *◜Total De Chats◞* ⇢ ${chats.length}\n`
-    txt += `☁️꙰᠁❥ *◜Usuarios◞* ⇢ ${totalreg}\n`
-    txt += `☁️꙰᠁❥ *◜Chats Privados◞* ⇢ ${chats.length - groupsIn.length}\n`
-    txt += `☁️꙰᠁❥ *◜Grupos◞* ⇢ ${groupsIn.length}\n`
-    txt += `☁️꙰᠁❥ *◜Actividad◞* ⇢ ${muptime}\n`
-    txt += `☁️꙰᠁❥ *◜Velocidad◞* ⇢ ${(speed * 1000).toFixed(0) / 1000}\n`
-    txt += `☁️꙰᠁❥ *◜SubBots Activos◞* ⇢ ${totalUsers || '0'}`
+    let txt = `🩸 \`\`\`Información - Demon-bot\`\`\` 🩸\n\n`
+    txt += `🩸᠁❥ *◜Creador◞* ⇢ Prak.Harper\n`
+    txt += `🩸᠁❥ *◜Prefijo◞* ⇢ [ ${usedPrefix} ]\n`
+    txt += `🩸᠁❥ *◜Versión◞* ⇢ ${vs}\n`
+    txt += `🩸᠁❥ *◜Chats Privados◞* ⇢ ${chats.length - groupsIn.length}\n`
+    txt += `🩸᠁❥ *◜Total De Chats◞* ⇢ ${chats.length}\n`
+    txt += `🩸᠁❥ *◜Usuarios◞* ⇢ ${totalreg}\n`
+    txt += `🩸᠁❥ *◜Chats Privados◞* ⇢ ${chats.length - groupsIn.length}\n`
+    txt += `🩸᠁❥ *◜Grupos◞* ⇢ ${groupsIn.length}\n`
+    txt += `🩸᠁❥ *◜Actividad◞* ⇢ ${muptime}\n`
+    txt += `🩸᠁❥ *◜Velocidad◞* ⇢ ${(speed * 1000).toFixed(0) / 1000}\n`
+    txt += `🩸᠁❥ *◜SubBots Activos◞* ⇢ ${totalUsers || '0'}`
 
     await conn.sendFile(m.chat, pp, 'image.jpg', txt, fkontak, null, fake)
 }
