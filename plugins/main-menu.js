@@ -23,7 +23,7 @@ let estilo = (text, style = 1) => {
     const find = replacer.find(x => x.original == v);
     find ? output.push(find.convert) : output.push(v);
   });
-  return output.join('🩸');
+  return output.join('');
 };
 
 const emojis = {
