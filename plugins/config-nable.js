@@ -339,7 +339,7 @@ await conn.sendMessage(m.chat, {
   ],
   viewOnce: true,
   headerType: 1
-}, { quoted: estilo });
+}, { quoted: fkontak });
 //  conn.reply(m.chat, `🚩 La función *${type}* se *${isEnable ? 'activó' : 'desactivó'}* ${isAll ? 'para este Bot' : isUser ? '' : 'para este chat'}`, m, rcanal)
 }
 
