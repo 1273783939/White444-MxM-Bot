@@ -37,13 +37,13 @@ const emojis = {
   "dl": "💿",
   "ai": "📍",
   "serbot": "📌",
-  "tools": "🍧",
-  "anonymous": "🎭",
-  "confesar": "📝",
+  "tools": "⚙️",
+  "anonymous": "📼",
+  "confesar": "🔇",
   "internet": "🌐",
-  "anime": "🦋",
-  "group": "🌼",
-  "owner": "🪐",
+  "anime": "♨️",
+  "group": "👥",
+  "owner": "⚠️",
 };
 
 const defaultMenu = {
@@ -68,7 +68,7 @@ const defaultMenu = {
 let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command }) => {
 
   let tags = {
-    "main": "☁️「 *`ＰＲＩＮＣＩＰＡＬ`* 」☁️",
+    "main": "🩸「 *`ＰＲＩＮＣＩＰＡＬ`* 」🩸",
     "info": "🩸「 *`ＩＮＦＯ`* 」🩸",
     "search": "🗡️「 *`ＳＥＡＲＣＨ`* 」🗡️",
     "rpg": "💀「 *`ＲＰＧ`* 」💀",
