@@ -38,7 +38,7 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
 
     await conn.sendMessage(m.chat, {
         text: txt,
-        footer: '© ᥴrᥱᥲძ᥆r ᥆𝖿іᥴіᥲᥣ іzᥙmі.kz᥊',
+        footer: '© ᥴrᥱᥲძ᥆r ᥆𝖿іᥴіᥲᥣ Prak.harper',
         buttons: [
             {
                 buttonId: ".menu",
