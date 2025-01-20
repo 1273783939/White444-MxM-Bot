@@ -47,13 +47,13 @@ global.jadi = 'DemonJadiBot'
 
 global.packname = '⪛✰ Demon 2.0 - Ultra ✰⪜'
 global.botname = 'Demon-2.0'
-global.wm = 'Demon-Ultra 🤍'
+global.wm = 'Demon-Ultra 🩸'
 global.author = 'mᥲძᥱ ᑲᥡ : Prak.harper ☕'
 global.dev = '© ⍴᥆ᥕᥱrᥱძ ᑲᥡ Prak.harper'
-global.textbot = 'Demon 2.0 : prak.harper 🤍'
+global.textbot = 'Demon 2.0 : prak.harper 🚀'
 global.namebot = 'Demon 2.0'
 global.stickpack = `© ⍴᥆ᥕᥱrᥱძ ᑲᥡ Prak.harper`
-global.titulowm = '-❀ᩙ̈͟༚̮ ⡞᪲=͟͟͞🄶𝚎᪶۫۫𝚗᪶۫۫𝚎᪶۫۫𝚜᪶۫۫𝚒᪶۫۫𝚜᪶۫ 𝚊᪶۫𝚒᪶۫͜ ≼᳞ׄ ᵎ ˚꙳꤬ꨪ'
+global.titulowm = '-☠︎︎༚̮ ⡞᪲=͟͟͞DemonBot-2.2 ≼᳞ׄ ᵎ ˚꙳꤬ꨪ'
 global.titulowm2 = '.‧·ீ੭ ¡ ᗃᮢ፝֟͡Demon B۵ᴛ el ᴍᴇᴊ꧔ʀ !˚̩̩̥͙°̩̥༅˚'
 global.igfg = '@usxr_Prakharper0'
 global.titu = '©️ ρσωε૨ ɓყ ɠαℓαאყ ƭεαɱ'
@@ -84,7 +84,7 @@ global.fakegif2 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remote
 
 global.fakegif3 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { videoMessage: { title: 'GenesisBot-MD', h: `Hmm`, seconds: '99999', gifPlayback: true, caption: '⚘݄𖠵⃕⁖𝙳 𝙴 𝙼 𝙾 𝙽 ☠︎︎', jpegThumbnail: catalogo }}};
 
-global.fakegif4 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { videoMessage: { title: 'GenesisBot-MD', h: `Hmm`, seconds: '99999', gifPlayback: true, caption: '⚘݄𖠵⃕⁖𝐒𝐭𝐢𝐜𝐤𝐞𝐫 (^_^♪) 🤍', jpegThumbnail: catalogo }}};
+global.fakegif4 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { videoMessage: { title: 'GenesisBot-MD', h: `Hmm`, seconds: '99999', gifPlayback: true, caption: '⚘݄𖠵⃕⁖𝐒𝐭𝐢𝐜𝐤𝐞𝐫 (^_^♪) 🩸', jpegThumbnail: catalogo }}};
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
