@@ -29,9 +29,9 @@ let estilo = (text, style = 1) => {
 const emojis = {
   "main": "🩸",
   "info": "🔪",
-  "search": "🎋",
-  "rpg": "🌵",
-  "nable": "🌀",
+  "search": "💀",
+  "rpg": "🕹️",
+  "nable": "♦️",
   "start": "🌱",
   "sticker": "🍥",
   "dl": "🍄",
