@@ -22,16 +22,16 @@ let handler = async (m, { conn, usedPrefix, command }) => {
   const groupsIn = chats.filter(([id]) => id.endsWith("@g.us"));
   const used = process.memoryUsage();
 
-  let infobt = `🍭 *I N F O - G E N E S I S*
+  let infobt = `🩸 *I N F O - D E M ON*
   
 *_ESTADO_*
-🐢͜͡ޮ ⋄ Chats de grupo: *${groupsIn.length}*
-🌺͜͡ޮ ⋄ Grupos unidos: *${groupsIn.length}*
-🐢͜͡ޮ ⋄ Grupos abandonados: *${groupsIn.length - groupsIn.length}*
-🌺͜͡ޮ ⋄ Chats privados: *${chats.length - groupsIn.length}*
-🐢͜͡ޮ ⋄ Total Chats: *${chats.length}*
-🌺͜͡ޮ ⋄ Registrados: *${totalreg}*
-🐢͜͡ޮ ⋄ Tiempo Activo: *${uptime}*
+🪫 ☠︎︎ Chats de grupo: *${groupsIn.length}*
+⚠️ ☠︎︎ Grupos unidos: *${groupsIn.length}*
+💿 ☠︎︎ Grupos abandonados: *${groupsIn.length - groupsIn.length}*
+🩸 ☠︎︎ Chats privados: *${chats.length - groupsIn.length}*
+🗡️ ☠︎︎ Total Chats: *${chats.length}*
+💀 ☠︎︎ Registrados: *${totalreg}*
+♦️ ☠︎︎ Tiempo Activo: *${uptime}*
 
 🚩 *NodeJS Uso de memoria*
 ${"```" + Object.keys(used).map((key, _, arr) => `${key.padEnd(Math.max(...arr.map(v => v.length)), " ")}: ${format(used[key])}`).join("\n") + "```"}
