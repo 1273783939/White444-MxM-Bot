@@ -12,7 +12,7 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
   }
   if (!Reg.test(text)) {
     return m.reply(
-      `*[ ✰ ] Por favor, ingresa tu nombre de usuario para proceder con el registro.*\n\n*🤍 Ejemplo de Uso* :\n*${usedPrefix + command}* Angel.19`
+      `*[ ✰ ] Por favor, ingresa tu nombre de usuario para proceder con el registro.*\n\n*🩸 Ejemplo de Uso* :\n*${usedPrefix + command}* Angel.19`
     );
   }
 
@@ -30,10 +30,10 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
 
   // Descargar imagen como Buffer
   let imgUrl = [ 
-    'https://i.ibb.co/XVq2V0P/file.jpg',
-    'https://i.ibb.co/93wxrXV/file.jpg',
-    'https://i.ibb.co/NTrX3Hz/file.jpg',
-    'https://i.ibb.co/PQnRDFh/file.jpg'
+    'https://i.ibb.co/7tMgPdj/file.jpg',
+    'https://i.ibb.co/7tMgPdj/file.jpg',
+    'https://i.ibb.co/7tMgPdj/file.jpg',
+    'https://i.ibb.co/7tMgPdj/file.jpg'
   ].getRandom()
   let imgBuffer;
   try {
@@ -56,7 +56,7 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
   txt += `\`━━━━━━━━━━━━━━━━━━━━\``;
 //  txt += `> Escribe *${usedPrefix}perfil* para ver tu perfil.`;
 
-  let dev = '© ⍴᥆ᥕᥱrᥱძ ᑲᥡ іzᥙmі.kz᥊';
+  let dev = '© ⍴᥆ᥕᥱrᥱძ ᑲᥡ Pʀᴀᴋ ʜᴀʀᴘᴇʀ';
 
   // Enviar mensaje con imagen
   await conn.sendMessage(m.chat, {
