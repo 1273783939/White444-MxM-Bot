@@ -49,12 +49,12 @@ const emojis = {
 const defaultMenu = {
   before: `*Hola \`%name\` soy Demon*
 
-> 👤 *Creador:* prak-harper
-> 🍥 *Pais:* %userNationality
-> 🍧 *Activo:* %muptime
-> 🍘 *Usuarios:* %rtotalreg de %totalreg
-> ☁️ *Corazones:* %corazones
-> 🌵 *Total Comandos:* %totalf
+> 💻 *Creador:* prak-harper
+> 🔅 *Pais:* %userNationality
+> ⏱️ *Activo:* %muptime
+> 👥️ *Usuarios:* %rtotalreg de %totalreg
+> 🖤 *Corazones:* %corazones
+> 🤖 *Total Comandos:* %totalf
 
 ▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬
  %readmore
