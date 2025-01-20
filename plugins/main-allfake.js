@@ -94,7 +94,7 @@ global.taguser = '@' + m.sender.split("@s.whatsapp.net")
 var more = String.fromCharCode(8206)
 global.readMore = more.repeat(850)
 global.sticker1 = `Usuario: ${nombre}
-🚀 Creador: prak-harper • 🚀 Fecha: ${fecha}`;
+🚀 Creador: prak-harper •  Fecha: ${fecha}`;
 global.sticker2 = `🩸Bot: ${botname}`
 
 //Fakes
