@@ -6,9 +6,9 @@ import ws from 'ws';
 let handler = async (m, { conn: _envio, command, usedPrefix, args, text, isOwner}) => {
 
 let img = [ 
-    'https://i.ibb.co/VYMKmbM/file.jpg',
-    'https://i.ibb.co/Zf4YQqC/file.jpg',
-    'https://i.ibb.co/10QK4kb/file.jpg'
+    'https://i.ibb.co/xF3DbFv/file.jpg',
+    'https://i.ibb.co/xF3DbFv/file.jpg',
+    'https://i.ibb.co/xF3DbFv/file.jpg'
   ].getRandom()
 
 const isCommand1 = /^(deletesesion|deletebot|deletesession|deletesesaion)$/i.test(command)  
@@ -16,7 +16,7 @@ const isCommand2 = /^(stop|pausarai|pausarbot)$/i.test(command)
 const isCommand3 = /^(bots|sockets|socket)$/i.test(command)   
 
 async function reportError(e) {
-await m.reply(`🌻 Ocurrió un error.`)
+await m.reply(`💀 Ocurrió un error.`)
 console.log(e)
 }
 
@@ -27,12 +27,12 @@ let uniqid = `${who.split`@`[0]}`
 const path = `./${jadi}/${uniqid}`
 
 if (!await fs.existsSync(path)) {
-await conn.sendMessage(m.chat, { text: `🌻 Usted no tiene una sesión, puede crear una usando:\n${usedPrefix + command}\n\nSi tiene una *(ID)* puede usar para saltarse el paso anterior usando:\n*${usedPrefix + command}* \`\`\`(ID)\`\`\`` }, { quoted: m })
+await conn.sendMessage(m.chat, { text: `💀 Usted no tiene una sesión, puede crear una usando:\n${usedPrefix + command}\n\nSi tiene una *(ID)* puede usar para saltarse el paso anterior usando:\n*${usedPrefix + command}* \`\`\`(ID)\`\`\`` }, { quoted: m })
 return
 }
-if (global.conn.user.jid !== conn.user.jid) return conn.sendMessage(m.chat, {text: `☁️ Use este comando al *Bot* principal.\n\n*https://api.whatsapp.com/send/?phone=${global.conn.user.jid.split`@`[0]}&text=${usedPrefix + command}&type=phone_number&app_absent=0*`}, { quoted: m }) 
+if (global.conn.user.jid !== conn.user.jid) return conn.sendMessage(m.chat, {text: `🩸 Use este comando al *Bot* principal.\n\n*https://api.whatsapp.com/send/?phone=${global.conn.user.jid.split`@`[0]}&text=${usedPrefix + command}&type=phone_number&app_absent=0*`}, { quoted: m }) 
 else {
-await conn.sendMessage(m.chat, { text: `☁️ Tu sesión como *Sub-Bot* se ha eliminado` }, { quoted: m })}
+await conn.sendMessage(m.chat, { text: `🩸 Tu sesión como *Sub-Bot* se ha eliminado` }, { quoted: m })}
 try {
 fs.rmdir(`./${jadi}/` + uniqid, { recursive: true, force: true })
 await conn.sendMessage(m.chat, { text : `Ha cerrado sesión y borrado todo rastro.` } , { quoted: m })
@@ -44,12 +44,12 @@ break
 case isCommand2:
 if (global.conn.user.jid == conn.user.jid) conn.reply(m.chat, `✨ Si no es *SubBot* comuníquese al numero principal del *Bot* para ser *SubBot*`, m)
 else {
-await conn.reply(m.chat, `☁️ Genesis Ai desactivada.`, m)
+await conn.reply(m.chat, `🩸 DemonBot-2.2 desactivada.`, m)
 conn.ws.close()}  
 break
 
 case isCommand3:
-//if (global.db.data.settings[conn.user.jid].jadibotmd) return m.reply(`☁️ Este comando está desactivado por mi creador.`)
+//if (global.db.data.settings[conn.user.jid].jadibotmd) return m.reply(`🩸 Este comando está desactivado por mi creador.`)
 const users = [...new Set([...global.conns.filter((conn) => conn.user && conn.ws.socket && conn.ws.socket.readyState !== ws.CLOSED).map((conn) => conn)])];
 function convertirMsADiasHorasMinutosSegundos(ms) {
 var segundos = Math.floor(ms / 1000);
@@ -77,8 +77,8 @@ return resultado;
 const message = users.map((v, index) => `👤 *\`「 ${index + 1} 」\` ${v.user.name || 'Sub-Bot'}*\n📎 Wa.me/${v.user.jid.replace(/[^0-9]/g, '')}?text=${usedPrefix}menu\n🕑 Online: ${ v.uptime ? convertirMsADiasHorasMinutosSegundos(Date.now() - v.uptime) : 'Desconocido'}`).join('\n\n__________________________\n\n');
 const replyMessage = message.length === 0 ? `No hay Sub-Bots disponible por el momento, verifique mas tarde.` : message;
 const totalUsers = users.length;
-const responseMessage = `☁️ *S U B B O T S - G E N E S I S* ☁️\n\n_Total Subbots Activos :_ ${totalUsers || '0'}\n\n${replyMessage.trim()}`.trim();
-await m.react('☁️')
+const responseMessage = `🩸 *S U B B O T S - D E M O N* 🩸\n\n_Total Subbots Activos :_ ${totalUsers || '0'}\n\n${replyMessage.trim()}`.trim();
+await m.react('🩸')
 await _envio.sendFile(m.chat, img, 'thumbnail.jpg', responseMessage, m, null, fake, false, { mentions: _envio.parseMention(responseMessage) })
 break   
 }}
