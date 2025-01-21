@@ -107,9 +107,9 @@ global.icono = [
 'https://i.ibb.co/8MqHdjj/file.jpg',
 'https://i.ibb.co/8MqHdjj/file.jpg',
 'https://i.ibb.co/8MqHdjj/file.jpg',
-'https://i.ibb.co/r6YPXPx/file.jpg',
-'https://i.ibb.co/r6YPXPx/file.jpg',
-'https://i.ibb.co/r6YPXPx/file.jpg'
+'https://i.ibb.co/c1N88Lz/file.jpg',
+'https://i.ibb.co/c1N88Lz/file.jpg',
+'https://i.ibb.co/c1N88Lz/file.jpg'
 ].getRandom()
 
 global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: channelRD.id, serverMessageId: 100, newsletterName: channelRD.name, }, externalAdReply: { showAdAttribution: true, title: botname, body: dev, mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icono, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, }, }}
