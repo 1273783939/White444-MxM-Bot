@@ -1,7 +1,7 @@
 /* 
-- Código Creado y modificado por Izumi-kzx
+- Código Creado y modificado por Prak-harper
 - Welcome con imagen Card
-- https://whatsapp.com/channel/0029VaJxgcB0bIdvuOwKTM2Y
+- https://whatsapp.com/channel/0029Vb03dv95a23v1gG0gT24
 */
 import { WAMessageStubType } from '@whiskeysockets/baileys';
 import fetch from 'node-fetch';
