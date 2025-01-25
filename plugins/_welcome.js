@@ -31,7 +31,7 @@ export async function before(m, { conn, participants, groupMetadata }) {
       .setAvatar(userAvatar)
       .setBackground(
         'image',
-        'https://i.ibb.co/0cfqJLt/file.jpg'
+        'https://files.catbox.moe/ciy0l1.jpg'
       )
       .setTitle(title)
       .setDescription(description)
