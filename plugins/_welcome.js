@@ -21,7 +21,7 @@ export async function before(m, { conn, participants, groupMetadata }) {
     try {
       return await conn.profilePictureUrl(m.messageStubParameters[0], 'image');
     } catch (err) {
-      return 'https://i.ibb.co/cFzgdNw/file.jpg';
+      return 'https://files.catbox.moe/ciy0l1.jpg';
     }
   };
 
