@@ -7,7 +7,7 @@ handler.all = async function(m) {
   if (/^bot$/i.test(m.text) && !chat.isBanned) {
     conn.sendPresenceUpdate('recording', m.chat);
 conn.reply(m.chat, `[🩸] 愛 ────㌃ Hola, soy 𝕯𝐄𝐌Ọ𝐍 𝐁Ọ𝐓. ¿En qué puedo ayudarte?
-\n\n✰ > ✐ No olvides usar *#help* si necesitas algo o !menu para ver mis comandos.`, m, rcanal, )
+\n\n> ✐ No olvides usar *#help* si necesitas algo o !menu para ver mis comandos.`, m, rcanal, )
 }
 if (/^sexo$/i.test(m.text)) {
 conn.reply(m.chat, `*pervertido* 🫣`, m, rcanal, )
