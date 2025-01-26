@@ -66,7 +66,7 @@ export async function before(m, { conn, participants, groupMetadata }) {
   }
 
   if (chat.welcome && m.messageStubType == 32) {
-    let kick = `🩸 *Se salió*  del grupo  *${groupMetadata.subject.trim()}*\n    ㌃@${m.messageStubParameters[0].split`@`[0]}\n\n   愛 ────㌃ Un inútil más que se sale del grupo, esperemos nunca vuelva.\n\n> ✐ No olvides usar *#help* si necesitas algo.\n> 🜸 Adiós...`;
+    let kick = `🩸 *Se salió*  del grupo  *${groupMetadata.subject.trim()}*\n    ㌃@${m.messageStubParameters[0].split`@`[0]}\n\n   愛 ────㌃ Un inútil más que se sale del grupo, esperemos nunca vuelva.\n\n> ✐ No olvides usar *#help* si necesitas algo.\n> 🜸 No eres bienvenido.`;
 
     let img = await generateImage(
       '¡ADIOS!',
