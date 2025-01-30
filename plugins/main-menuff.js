@@ -8,7 +8,7 @@ import fetch from 'node-fetch'
 const { generateWAMessageFromContent, proto } = (await import('@whiskeysockets/baileys')).default
 
 const defaultMenu = {
-  before: `“ʜᴏʟᴀ *%name* ꜱᴏʏ ᴅᴇᴍᴏɴ ʙᴏᴛ, ᴛᴇɴ ᴜɴ ʟɪɴᴅᴏ ᴅɪᴀ"
+  before: `“ʜᴏʟᴀ *%name* White444-MxM-Bot, ᴛᴇɴ ᴜɴ ʟɪɴᴅᴏ ᴅɪᴀ"
 
 \`ᴄʟɪᴇɴᴛᴇ:\` %name
 \`ʙᴏᴛ:\` White444-MxM-Bot
