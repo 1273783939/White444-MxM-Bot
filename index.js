@@ -91,7 +91,7 @@ console.log(chalk.yellow(`╭${lineM}
 ╰${lineM}`));
 setInterval(() => {}, 1000)
 } catch (err) {
-console.error(chalk.red(`❌ No se pudo leer el archivo package.json: ${err}`))
+console.error(chalk.red(`: ${err}`))
 }
 
 let opts = new Object(yargs(process.argv.slice(2)).exitProcess(false).parse())
