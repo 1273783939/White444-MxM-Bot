@@ -11,8 +11,8 @@ const defaultMenu = {
   before: `“ʜᴏʟᴀ *%name* ꜱᴏʏ ᴅᴇᴍᴏɴ ʙᴏᴛ, ᴛᴇɴ ᴜɴ ʟɪɴᴅᴏ ᴅɪᴀ"
 
 \`ᴄʟɪᴇɴᴛᴇ:\` %name
-\`ʙᴏᴛ:\` Demon Bot
-\`ᴍᴏᴅᴏ:\` Público
+\`ʙᴏᴛ:\` White444-MxM-Bot
+\`ᴍᴏᴅᴏ:\` Privado Vip
 \`ꜰᴇᴄʜᴀ:\` ${fecha}
 \`ᴜꜱᴜᴀʀɪᴏꜱ:\` %totalreg
 \`ɴɪᴠᴇʟ:\` %level
@@ -23,7 +23,7 @@ const defaultMenu = {
   header: '╭─(☠︎︎)❝┊ *_`%category`_* ┊❝(☠︎︎)',
   body: '┊➧ %cmd\n',
   footer: '╰───────────── –\n',
-  after: `> ʙʏ : ᴘʀᴀᴋ ʜᴀʀᴘᴇʀ ᴏꜰᴄ ʏ ᴅᴇᴍᴏɴ ʙᴏᴛ`,
+  after: `> ʙʏ : Orlando Castillo ʏ White444-MxM-Bot`,
 }
 let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
 let tags = {
