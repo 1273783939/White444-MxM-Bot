@@ -22,7 +22,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
   const groupsIn = chats.filter(([id]) => id.endsWith("@g.us"));
   const used = process.memoryUsage();
 
-  let infobt = `🩸 *I N F O - D E M ON*
+  let infobt = `🩸 *I N F O - White444-MxM-Bot*
   
 *_ESTADO_*
 🪫 ☠︎︎ Chats de grupo: *${groupsIn.length}*
