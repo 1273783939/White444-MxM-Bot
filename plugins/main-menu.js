@@ -47,7 +47,7 @@ const emojis = {
 };
 
 const defaultMenu = {
-  before: `*Hola \`%name\` soy Demon-bot*
+  before: `*Hola \`%name\` White444-MxM-Bot*
 
 > 💻 *Creador:* Orlando Castillo 
 > 🔅 *Pais:* %userNationality
