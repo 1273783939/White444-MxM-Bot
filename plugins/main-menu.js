@@ -49,7 +49,7 @@ const emojis = {
 const defaultMenu = {
   before: `*Hola \`%name\` soy Demon-bot*
 
-> 💻 *Creador:* prak-harper
+> 💻 *Creador:* Orlando Castillo 
 > 🔅 *Pais:* %userNationality
 > ⏱️ *Activo:* %muptime
 > 👥️ *Usuarios:* %rtotalreg de %totalreg
