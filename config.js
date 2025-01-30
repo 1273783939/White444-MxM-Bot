@@ -16,7 +16,7 @@ global.confirmCode = ''
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
 global.owner = [
-   ['584241836217', 'Creador 👑', true],
+   ['5212731590195', 'Creador 👑', true],
    ['50557865603', 'Owner 💛', true],
    ['', 'Owner ☁️', true],
    ['', 'Owner 🍭', true],
@@ -38,29 +38,29 @@ global.libreria = 'Baileys'
 global.baileys = 'V 6.7.5'
 global.vs = '2.0.7'
 global.vsJB = '5.0'
-global.nameqr = 'Demon-2.2'
-global.namebot = 'Demon 2.2 ᰔᩚ'
-global.sessions = 'DemomSession'
-global.jadi = 'DemonJadiBot'
+global.nameqr = 'White444-MxM-Bot-'
+global.namebot = 'White444-MxM-Bot  ᰔᩚ'
+global.sessions = 'WhiteSession'
+global.jadi = 'WhiteJadiBot'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.packname = '⪛✰ Demon 2.0 - Ultra ✰⪜'
-global.botname = 'Demon-2.0'
-global.wm = 'Demon-Ultra 🩸'
-global.author = 'mᥲძᥱ ᑲᥡ : Prak.harper ☕'
+global.packname = '⪛✰  White444-MxM-Bot- Ultra ✰⪜'
+global.botname = 'White444-MxM-Bot'
+global.wm = 'White444-MxM-Bot-Ultra 🩸'
+global.author = 'mᥲძᥱ ᑲᥡ : Orlando ☕'
 global.dev = '© ⍴᥆ᥕᥱrᥱძ ᑲᥡ Prak.harper'
-global.textbot = 'Demon 2.0 : prak.harper 🚀'
-global.namebot = 'Demon 2.0'
+global.textbot = 'White444-MxM-Bot 2.0 : prak.harper 🚀'
+global.namebot = 'White444-MxM-Bot'
 global.stickpack = `© ⍴᥆ᥕᥱrᥱძ ᑲᥡ Prak.harper`
-global.titulowm = '-☠︎︎༚̮ ⡞᪲=͟͟͞DemonBot-2.2 ≼᳞ׄ ᵎ ˚꙳꤬ꨪ'
-global.titulowm2 = '.‧·ீ੭ ¡ ᗃᮢ፝֟͡Demon B۵ᴛ el ᴍᴇᴊ꧔ʀ !˚̩̩̥͙°̩̥༅˚'
+global.titulowm = '-☠︎︎༚̮ ⡞᪲=͟͟͞White444-MxM-Bot ≼᳞ׄ ᵎ ˚꙳꤬ꨪ'
+global.titulowm2 = '.‧·ீ੭ ¡ ᗃᮢ፝White444-MxM-Bot !˚̩̩̥͙°̩̥༅˚'
 global.igfg = '@usxr_Prakharper0'
-global.titu = '©️ ρσωε૨ ɓყ ɠαℓαאყ ƭεαɱ'
+global.titu = '©️ Powered By Crow's Club'
 global.listo = '*Aqui tiene ฅ^•ﻌ•^ฅ*'
 global.vs = '2.0.7'
-global.namechannel = '𝑫𝒆𝒎𝒐𝒏-𝑩𝒐𝒕 - 𝑪𝒉𝒂𝒏𝒏𝒆𝒍'
-global.stickauth = `© Demon 2.2 By prakharper-OFC`
+global.namechannel = 'White444-MxM-Bot - 𝑪𝒉𝒂𝒏𝒏𝒆𝒍'
+global.stickauth = `© White444-MxM-Bot  By prakharper-OFC`
 global.dis = ':⁖֟⊱┈֟፝❥'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
